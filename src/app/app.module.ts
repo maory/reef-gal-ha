@@ -3,7 +3,9 @@ import { GraphQLModule } from '@nestjs/graphql';
 
 @Module({
   imports: [
-    GraphQLModule.forRoot({}),
+    GraphQLModule.forRoot({
+      typePaths: ["..\..\resources\schema\schema.graphql"]
+    }),
   ],
 })
 export class AppModule {}

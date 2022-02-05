@@ -23,15 +23,15 @@
   "dependencies": {
     "@nestjs/common": "^8.0.0",
     "@nestjs/core": "^8.0.0",
+    "@nestjs/graphql": "^7.11.0",
     "@nestjs/platform-express": "^8.0.0",
-    "@nestjs/graphql": "^7.7.0",
-    "apollo-server-express": "^2.18.1",
+    "apollo-server-express": "^2.25.3",
+    "graphql": "^15.8.0",
+    "graphql-subscriptions": "^1.1.0",
+    "graphql-tools": "^6.2.3",
     "reflect-metadata": "^0.1.13",
     "rimraf": "^3.0.2",
-    "rxjs": "^7.2.0",
-    "graphql": "^15.3.0",
-    "graphql-subscriptions": "^1.1.0",
-    "graphql-tools": "^6.2.3"
+    "rxjs": "^7.2.0"
   },
   "devDependencies": {
     "@nestjs/cli": "^8.0.0",
